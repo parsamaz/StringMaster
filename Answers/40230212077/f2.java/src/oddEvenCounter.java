@@ -11,8 +11,8 @@ public class oddEvenCounter {
 
         int count = oddEvenCounter(number, searchForEven);
         System.out.println(count);
-        int d = Character.getNumericValue(number.charAt(3));
-        System.out.println(d);
+
+
         scanner.close();
     }
 

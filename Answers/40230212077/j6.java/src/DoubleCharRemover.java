@@ -22,10 +22,10 @@ public class DoubleCharRemover {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a word: ");
+        System.out.print("word = ");
         String word = scanner.nextLine();
 
-        System.out.println("Word after removing consecutive repeated letters: " + doubleChar(word));
+        System.out.println( doubleChar(word));
 
         scanner.close();
     }
